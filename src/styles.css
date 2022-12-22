@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+h1, h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 44px;
+    margin: 20px;
+}

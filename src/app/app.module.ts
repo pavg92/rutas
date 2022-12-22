@@ -3,10 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { JuegoComponent } from './juego/juego.component';
+import { DadoComponent } from './dado/dado.component';
+import { AcercaComponent } from './acerca/acerca.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    JuegoComponent,
+    DadoComponent,
+    AcercaComponent
   ],
   imports: [
     BrowserModule,
